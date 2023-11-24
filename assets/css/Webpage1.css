@@ -89,11 +89,11 @@ img {
 
 .block1 {
     background-image: url("../images/coffee.png");
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%; 
     position: relative;
     width: 100%;
     height: 550px;
+    font-size: 12px;
 }
 
 .block1 .div {
@@ -104,20 +104,20 @@ img {
 }
 
 .block1 .div h1 {
-    font-size: 4.5rem;
+    font-size: 4.5em;
     padding: 10px;
 }
 
 .block1 .div h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
-    font-size: 4.5rem;
+    font-size: 4.5em;
     padding: 10px;
 }
 
 .block1 .div p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     padding: 10px;
 }
 
@@ -135,26 +135,26 @@ img {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: auto;
-    margin-top: 150px;
-    align-items: center;
-    margin: 30px;
-    
-    
+    margin: 7% 0%;
+    align-items: center;  
+    flex-wrap: wrap;
+    gap: 5%;
+    font-size: 12px;
+}
 
+.block2 > div {
+    width: 45%;
 }
 
 .block2 .div1 {
     font-size: 20px;
     width: 45%;
-    margin: 25px;
-    margin-left: 15%;
     color: rgb(85, 84, 84);
 
 }
 
 .block2 .div1 h1 {
-    font-size: 3rem;
+    font-size: 3em;
     font-family: 'Arial Narrow Bold';
     color: orangered;
     margin-bottom: 20px;
@@ -162,10 +162,7 @@ img {
 }
 
 .block2 img {
-    width: 45%;
-    height: auto;
-    margin: 25px;
-
+    width: 100%;
 }
 
 .block2 .div1 button {
@@ -289,8 +286,8 @@ img {
 }
 
 .block4 .div6 img {
-    width: 30px;
-    height: 30px;
+    width: 20%;
+    height: 25%;
     padding: 10px;
 }
 
@@ -301,7 +298,6 @@ img {
 
 .block4 .div6:hover > .div7 {
     display: inline-block;
-    color: white;
 }
 
 .div8 {
@@ -358,7 +354,12 @@ img {
     width: 100%;
     height: auto;
     margin: auto;
+    flex-wrap: wrap;
     
+}
+
+.block5 > div {
+    width: 50%;
 }
 
 .block5 .div11 {
@@ -444,7 +445,7 @@ img {
     }
 
     .block2 .div1 {
-        width: 90%;
+        width: 50%;
         margin-left: 0;
     }
 
@@ -471,7 +472,7 @@ img {
     }
 
     .block5 .div11 {
-        width: 90%;
+        width: 50%;
     }
 
     .block5 img {
@@ -483,11 +484,11 @@ img {
         width: 100%;
     }
     
-    .block6 .div12 {
-        width: 50%;
-    }
+   
 
 }
+
+
 
 @media only screen and (max-width:768px) {
     
@@ -503,14 +504,23 @@ img {
         width: 100%;
     }
 
+    .block1 .div {
+        top: 50px;
+        left: 50px;
+    }
+    .block2 {
+        width: 100%;
+
+    }
     .block2 .div1 {
-        width: 90%;
+        width: 45%;
         
     }
 
-    .block2 img {
-        width: 90%;
-    }
+    .block2 .div4 {
+        width: 45%;
+    } 
+
 
     .block3 {
         width: 100%;
@@ -526,11 +536,10 @@ img {
 
     .block5 {
         width: 100%;
-        flex-wrap: wrap;
     }
 
     .block5 .div11 {
-        width: 120%;
+        width: 50%;
     }
 
     .block5 img {
@@ -539,11 +548,11 @@ img {
     }
 
     .block6 {
-        width: 100%;
+        width: 50%;
     }
     
     .block6 .div12 {
-        width: 50%;
+        width: 50% !important;
     }
 
 }
@@ -564,21 +573,17 @@ img {
 
     .block1 .div {
         width: 50%;
-        top: 40px;
     }
 
-    .block2 {
-        flex-wrap: wrap;
-    }
 
     .block2 .div1 {
         width: 100%;
     }
 
-    .block2 img {
+    .block2 .div4 {
         width: 100%;
-        margin: 0;
     }
+
 
     .block3 {
         width: 100%;
@@ -604,11 +609,10 @@ img {
 
     .block5 {
         width: 100%;
-        flex-wrap: wrap;
     }
 
     .block5 .div11 {
-        width: 100%;
+        width: 50%;
     }
 
     .block5 img {
@@ -623,9 +627,4 @@ img {
     .block6 .div12 {
         width: 50%;
     }
-
 }
-
-
-
-
