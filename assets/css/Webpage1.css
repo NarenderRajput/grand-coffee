@@ -365,7 +365,7 @@ img {
 .block5 .div11 {
     background-image: url("..//images/coffee4.png");
     background-size: cover;
-    width: 68%;
+    width: 50%;
     height: auto;
     padding: 10px;
     text-align: center;
@@ -401,15 +401,17 @@ img {
     display: flex;
     justify-content: center;
     color: white;
-    background-color: black;
+    background-color: #252525;
     padding: 60px;
     margin-top: 10px;
     flex-wrap: wrap;
+    font-weight: 600;
 }
 
 .block6 .div12 {
     width: 25%;
     padding: 30px;
+    line-height: 1.%;
   
 }
 
