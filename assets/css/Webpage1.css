@@ -53,6 +53,7 @@ img {
     background-color: transparent;
     color: white;
     padding: 16px;
+    margin-right: 15px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -549,9 +550,6 @@ img {
         height: 100%;
     }
 
-    .block6 {
-        width: 50%;
-    }
     
     .block6 .div12 {
         width: 50% !important;
@@ -613,8 +611,12 @@ img {
         width: 100%;
     }
 
+    .block5 >div {
+        width: 100%;
+    }
+
     .block5 .div11 {
-        width: 50%;
+        width: 100%;
     }
 
     .block5 img {
@@ -626,7 +628,7 @@ img {
         width: 100%;
     }
     
-    .block6 .div12 {
+    .div12 {
         width: 50%;
     }
 }
