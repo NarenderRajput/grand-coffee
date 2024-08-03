@@ -409,7 +409,7 @@ img {
     font-weight: 600;
 }
 
-.block6 .div12 {
+.div12 {
     width: 25%;
     padding: 30px;
     line-height: 1.%;
@@ -551,8 +551,8 @@ img {
     }
 
     
-    .block6 .div12 {
-        width: 50% !important;
+    .div12 {
+        width: 50%;
     }
 
 }
@@ -629,6 +629,7 @@ img {
     }
     
     .div12 {
-        width: 50%;
+        width: 100%;
     }
+
 }
