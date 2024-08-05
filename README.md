@@ -1,21 +1,17 @@
-# grand-coffee
-This is HTML, CSS and Web Designing. 
+# Grand-coffee
+This is HTML, CSS based Web Design. 
 
 ## Tech Stack
 
-**HTML**, **CSS**
+**HTML**, **CSS**, **Font awesome**
 
 ## Key Points
-1. CSS
+1. CSS Media query
 2. Font Awesome
-3. 
-4. 
-5. 
+
 
 # Live Url
 https://narenderrajput.github.io/grand-coffee/
-
-[View Demo on youtube](https://youtu.be/0upIxqAJieU)
 
 
 # Screenshot
