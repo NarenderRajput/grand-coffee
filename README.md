@@ -6,11 +6,10 @@ This is HTML, CSS and Web Designing.
 **HTML**, **CSS**
 
 ## Key Points
-1. CSS
+1. CSS Media query
 2. Font Awesome
-3. 
-4. 
-5. 
+3. Git
+
 
 # Live Url
 https://narenderrajput.github.io/grand-coffee/
